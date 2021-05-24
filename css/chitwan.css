@@ -55,6 +55,18 @@ body {
 .btn.orange-border {
     border-color: #ff5a00;
 }
+
+.btn.orange-border:hover{
+    color: white;
+    background-color: #ff5a00;
+}
+
+.news_btn{
+    color: white;
+    background-color: #ff5a00;
+    border-color: transparent;
+    
+}
 .btn {
     padding: 18px 40px;
     border: 2px solid #262626;
@@ -203,7 +215,7 @@ body {
     padding: 70px 0;
 }
 .news{
-    padding: 20px 0 20px 0;
+    padding: 0px 0 20px 0;
 }
 
 .news-image{
@@ -241,9 +253,7 @@ body {
 .btn_contact{
     text-align: center;
 }
-member_btn{
-    text-align: center;
-}
+
 .btn.gradient-bg{
     border-color: transparent;
     background-color: #ff5a00;
@@ -271,5 +281,8 @@ img {
     padding: 96px 0;
 }
 .latest_news a{
+    color: black;
+}
+.image-wrap h3.entry-title a{
     color: black;
 }
