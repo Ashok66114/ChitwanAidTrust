@@ -41,6 +41,14 @@ body {
     font-weight: 600;
     color: #ff4800;
 }
+
+
+.carousel-caption{
+    position: absolute;
+    font-size: 72px;
+    font-weight: 500;
+    text-align: center;
+}
 /*
 .entry_header::before{
     content:'';
@@ -53,7 +61,26 @@ body {
     border-radius: 2px;
     background:#ff4800;
 */
-
+.countdown-box{
+    padding: 15px 0 15px 0;
+}
+.countdown-box span {
+    display: inline-block;
+    text-align: center;
+    font-size: 36px;
+    border: 1px solid #333;
+}
+.countdown-box span span{
+    border: none;
+}
+.countdown-box span small {
+    background: #333;
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 2px 10px;
+}
 .noticeboard{
     padding: 20px 30px;
     background-color: #f1f1f1;
@@ -212,7 +239,13 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, .7);
 }
-
+.upcoming_wrap .text_wrap h6  a{
+     
+        font-size: 18px;
+        font-weight: 600;
+        color: #262626;
+    
+}
 
 .about_wrap{
     padding: 96px 0;
@@ -338,5 +371,8 @@ img {
   opacity: 1;
   transform: translateY(0%);
  /* this removes the transition delay so the menu will be visible while the other styles transition */
+}
+.map-content{
+    padding: 0 10px 0 10px;
 }
 
